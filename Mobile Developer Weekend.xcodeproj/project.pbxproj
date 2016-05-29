@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68349F401CFABC04009D038C /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68349F3E1CFABC04009D038C /* URLs.swift */; };
+		68349F461CFABD69009D038C /* NetWork_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68349F451CFABD69009D038C /* NetWork_Manager.swift */; };
+		68349F4D1CFABF28009D038C /* NetWork_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68349F4C1CFABF28009D038C /* NetWork_Delegate.swift */; };
 		8274E5421CF7527C00917388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8274E5411CF7527C00917388 /* AppDelegate.swift */; };
 		8274E5441CF7527C00917388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8274E5431CF7527C00917388 /* ViewController.swift */; };
 		8274E5471CF7527C00917388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8274E5451CF7527C00917388 /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68349F3E1CFABC04009D038C /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLs.swift; path = "Mobile Developer Weekend/URLs.swift"; sourceTree = "<group>"; };
+		68349F451CFABD69009D038C /* NetWork_Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWork_Manager.swift; sourceTree = "<group>"; };
+		68349F4C1CFABF28009D038C /* NetWork_Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWork_Delegate.swift; sourceTree = "<group>"; };
 		8274E53E1CF7527C00917388 /* Mobile Developer Weekend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Developer Weekend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8274E5411CF7527C00917388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8274E5431CF7527C00917388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,9 +82,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68349F491CFABDE7009D038C /* NetWork_Package */ = {
+			isa = PBXGroup;
+			children = (
+				68349F3E1CFABC04009D038C /* URLs.swift */,
+				68349F451CFABD69009D038C /* NetWork_Manager.swift */,
+				68349F4C1CFABF28009D038C /* NetWork_Delegate.swift */,
+			);
+			name = NetWork_Package;
+			sourceTree = "<group>";
+		};
 		8274E5351CF7527C00917388 = {
 			isa = PBXGroup;
 			children = (
+				68349F491CFABDE7009D038C /* NetWork_Package */,
 				8274E5401CF7527C00917388 /* Mobile Developer Weekend */,
 				8274E5581CF7527C00917388 /* Mobile Developer WeekendTests */,
 				8274E5631CF7527C00917388 /* Mobile Developer WeekendUITests */,
@@ -260,9 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68349F401CFABC04009D038C /* URLs.swift in Sources */,
 				8274E54A1CF7527C00917388 /* Mobile_Developer_Weekend.xcdatamodeld in Sources */,
 				8274E5441CF7527C00917388 /* ViewController.swift in Sources */,
+				68349F4D1CFABF28009D038C /* NetWork_Delegate.swift in Sources */,
 				8274E5421CF7527C00917388 /* AppDelegate.swift in Sources */,
+				68349F461CFABD69009D038C /* NetWork_Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +509,7 @@
 				8274E56B1CF7527D00917388 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8274E56C1CF7527D00917388 /* Build configuration list for PBXNativeTarget "Mobile Developer WeekendTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +518,7 @@
 				8274E56E1CF7527D00917388 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8274E56F1CF7527D00917388 /* Build configuration list for PBXNativeTarget "Mobile Developer WeekendUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +527,7 @@
 				8274E5711CF7527D00917388 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
